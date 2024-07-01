@@ -646,7 +646,6 @@ footer{
     background: hsl(var(--clr-secondary-200));
    }
    .contact-me-button-desktop span:hover{
-    background: hsl(var(--clr-secondary-200));
     color: white;
    }
    .contact--me-button{
