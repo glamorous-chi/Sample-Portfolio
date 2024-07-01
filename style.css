@@ -316,6 +316,14 @@ h6 {
 #primary-navigation > a:focus {
   color: hsl(var(--clr-secondary-200));
 }
+#portfolio-list > a:hover,
+#portfolio-list > a:focus {
+  color: hsl(var(--clr-secondary-200));
+}
+#testimonials-list > a:hover,
+#testimonials-list > a:focus {
+  color: hsl(var(--clr-secondary-200));
+}
 .description {
   display: grid;
   place-items: center;
