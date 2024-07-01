@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+        <div class="container">
+            <header class="flex-justify-content header">
+                <a href="#"><img src="./Images/Logo.png" alt="Logo"></a>
+                <nav class="">
+                    <ul id="primary-navigation" class="desktop-nav flex">
+                        <a href="#"><li>Home</li></a>
+                        <a href="#about-me"><li>About me</li></a>
+                        <a href="#portfolio"><li>Portfolio</li></a>     
+                        <a href="#testimonials"><li>Testimonials</li></a>
+                    </ul>
+                    <ul id="primary-navigation" class="mobile-nav" nav-visible = "false">
+                        <a href="#"><li>Home</li></a>
+                        <a href="#about-me"><li>About me</li></a>
+                        <a href="#portfolio"><li>Portfolio</li></a>
+                        <a href="#testimonials"><li>Testimonials</li></a>
+                        <div class="contact-me-button-mobile"><a href="#contact-me" class=""><span>Contact Me</span></a></div>
+                    </ul>
+                </nav>
+                <button class="menu" aria-expanded="false" aria-controls="primary-navigation"></button>
+                <div class="contact-me-button-desktop">
+                    <a href="#contact-me"><span>Contact Me</span></a>
+                </div>
+            </header>
+            <div id="overlay"></div>
+        </div>
+        <main class="grid">
+            <section class="bg-primary">
+                <div class="hero-section">
+                    <div>
+                        <img src="./Images/Group 11 1.png" alt="John's picture">
+                    </div>
+                <div class="description grid-hero">
+                    <h6>Hey, I am John</h6>
+                    <h1>I develop dynamic and User-Centered Web Applications</h1>
+                    <p>My expertise spans both front-end and back-end development, enabling
+                        me to build comprehensive solutions that meet diverse client needs.
+                    </p>
+                    <a href="#contact-me" class="contact--me-button">Get in Touch</a>
+                </div>
+                </div>    
+            </section>
+
+            <section class="container expertise-section flow">
+                <div class="flow">
+                    <h6>My Skills</h6>
+                    <h2 class="fw-900">My Expertise</h2>
+                </div> 
+                <div class="expertise-div">
+                    <div class="inner-expertise-div">
+                        <div class=""><img src="./Images/Strategy & Direction.png" alt=""></div>
+                        <h4>Responsive Design</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.
+                        </p>
+                    </div>
+                    <div class="inner-expertise-div">
+                        <div><img src="./Images/Branding & Logo.png" alt=""></div>
+                        <h4>Front-End Frameworks</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.
+                        </p>
+                    </div>
+                    <div class="inner-expertise-div">
+                        <div><img src="./Images/UI & UX Design.png" alt=""></div>
+                        <h4>Testing and Debugging</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.
+                        </p>
+                    </div>
+                    <div class="inner-expertise-div">
+                        <div><img src="./Images/Webflow Development.png" alt=""></div>
+                        <h4>Cloud Services</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="about-me" class="container about-me-section">
+                <div class="about-me-image"> 
+                <img src="./Images/About Me.png" alt="John's picture">
+                </div>
+                <div class="description grid-hero">
+                    <h6>About</h6>
+                    <h2>About Me</h2>
+                    <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce varius faucibus massa sollicitudin amet augue. Nibh metus a semper purus mauris duis. Lorem eu neque, tristique quis duis. Nibh scelerisque ac adipiscing velit non nulla in amet pellentesque.
+                    <p>Sit turpis pretium eget maecenas. Vestibulum dolor mattis consectetur eget commodo vitae. Amet pellentesque sit pulvinar lorem mi a, euismod risus r.</p>
+                    </p>
+                </div>
+            </section>
+
+            <section id="portfolio" class="portfolio-section container">
+                <div class="portfolio">
+                    <div class="flow">
+                        <h6>Recent Projects</h6>
+                        <h2>My Portfolio</h2>
+                    </div>
+                    <div class="desktop-github">
+                        <a href="https://github.com/glamorous-chi" class="bg-secondary-300 github-link">
+                            <img src="./Images/Github.png" alt="">
+                            <span style="color: white;">View My GitHub</span> 
+                        </a>
+                    </div>       
+                </div>
+                <div class="portfolio-card">
+                    <div class="card">
+                        <div>
+                            <img src="./Images/Image3.png" alt="" class="card-img">
+                        </div>
+                        <div class="card-content">
+                            <h4 class="card-title">Ahuse</h4>
+                            <p class="card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+                            <div style="display: flex; align-items: center; gap: .5rem; margin-bottom: 1rem;" class="card-link">
+                                <a style="">View Website</a>
+                            <span><img src="./Images/Arrow.png" alt=""></span>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="card">
+                        <div>
+                            <img src="./Images/Image2.png" alt="" class="card-img">
+                        </div>
+                        <div class="card-content">
+                            <h4 class="card-title">App Dashboard</h4>
+                            <p class="card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+                            <div style="display: flex; align-items: center; gap: .5rem; margin-bottom: 1rem;" class="card-link"">
+                                <a style="">View Website</a>
+                            <span><img src="./Images/Arrow.png" alt=""></span>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="card">
+                        <div>
+                            <img src="./Images/Image5.png" alt="" class="card-img">
+                        </div>
+                        <div class="card-content">
+                            <h4 class="card-title">Easy Rent</h4>
+                            <p class="card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+                            <div style="display: flex; align-items: center; gap: .5rem; margin-bottom: 1rem;" class="card-link"">
+                                <a style="">View Website</a>
+                            <span><img src="./Images/Arrow.png" alt=""></span>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="mobile-github">
+                    <a href="https://github.com/glamorous-chi" class="bg-secondary-300 github-link">
+                        <img src="./Images/Github.png" alt="">
+                        <span style="color: white;">View My GitHub</span> 
+                    </a>
+                </div>  
+            </section>
+
+            <section id="testimonials" class="testimonials bg-primary">
+                <div class="container">
+                        <div class="flow">
+                            <h6>Clients Feedback</h6>
+                            <h2>Customer testimonials</h2>
+                        </div>      
+                    <div class="customer-testimonials">
+                        <div class="customer--testimonials grid-hero">
+                            <div class="flex-hero stars">
+                                <img src="./Images/stars.png" alt="star rating">
+                                <img src="./Images/Stars.png" alt="star rating">
+                                <img src="./Images/Stars.png" alt="star rating">
+                                <img src="./Images/Stars.png" alt="star rating">
+                                <img src="./Images/Stars.png" alt="star rating">
+                            </div>
+                            <p class="max-width: 25ch">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra."</p>
+                            <div class="flex avatar">
+                                <img src="./Images/Avatar Image neww.png" alt="">
+                                <span>
+                                    <p>Dianne Russell</p>
+                                    <p>Starbucks</p>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="customer--testimonials grid-hero">
+                            <div class="flex-hero stars">
+                                <img src="./Images/Stars.png" alt="star rating">
+                                <img src="./Images/Stars.png" alt="star rating">
+                                <img src="./Images/Stars.png" alt="star rating">
+                                <img src="./Images/Stars.png" alt="star rating">
+                                <img src="./Images/Stars.png" alt="star rating">
+                            </div>
+                            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra."</p>
+                            <div class="flex avatar">
+                                <img src="./Images/Avatar Image (2).png" alt="">
+                                <span>
+                                    <p>Dianne Russell</p>
+                                    <p>Starbucks</p>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="customer--testimonials grid-hero">
+                            <div class="flex-hero stars">
+                                <img src="./Images/Stars.png" alt="star rating">
+                                <img src="./Images/Stars.png" alt="star rating">
+                                <img src="./Images/Stars.png" alt="star rating">
+                                <img src="./Images/Stars.png" alt="star rating">
+                                <img src="./Images/Stars.png" alt="star rating">
+                            </div>
+                            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra."</p>
+                            <div class="flex avatar">
+                                <img src="./Images/Avatar Image (3).png" alt="">
+                                <span>
+                                    <p>Dianne Russell</p>
+                                    <p>Starbucks</p>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </section>
+
+            <section id="contact-me" class="form-section">
+                <div class="--flow">
+                    <h6>Get In Touch</h6>
+                    <h2>Contact me</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <form action="" class="form-field">
+                    <div class="flex">
+                        <div style="display: flex; flex-direction: column;">
+                            <label for="">First name</label>
+                            <input type="text" id="" name="" class="styled-input">
+                        </div>
+                            
+                        <div style="display: flex; flex-direction: column;">
+                            <label for="">Last name</label>
+                            <input type="text" id="" name="" class="styled-input">
+                        </div>
+                    </div>
+                    <div class="flex">
+                        <div style="display: flex; flex-direction: column;">
+                            <label for="">Email</label>
+                            <input type="text" id="" name="" class="styled-input">
+                        </div>
+                            
+                        <div style="display: flex; flex-direction: column;">
+                            <label for="">Phone number</label>
+                            <input type="text" id="" name="" class="styled-input">
+                        </div>
+                    </div>
+
+                    <div class="" style="display: flex; flex-direction: column;">
+                        <label for="Message">Message</label>
+                    <textarea name="" id="" placeholder="Type your message..."  class="styled-input styled--input"></textarea>
+                    </div>
+                    
+                    <div style="margin: 1.5rem 0;">
+                        <input type="checkbox"><span style="margin-left: .2rem">I accept the terms</span> 
+                    </div>
+                </form>
+                
+                    <a class="bg-secondary-200 contact--me-button" style="text-align: center;">Submit</a>
+                
+                
+            </section>
+
+            <footer class="bg-primary" style="padding-bottom: 3rem;">
+                <div class="footer-div container grid-hero">
+                    <a href="#" class="logo-desktop"><img src="./Images/Logo.png" alt="Logo"></a>
+                    <nav class="">
+                        <ul id="primary-navigation" class="desktop-nav flex">
+                            <a href="#"><li>Home</li></a>
+                            <a href="#about-me"><li>About me</li></a>
+                            <a href="#portfolio"><li>Portfolio</li></a>
+                            <a href="#contact-me"><li>Contact</li></a>
+                            <a href="#testimonials"><li>Testimonials</li></a>
+                        </ul>
+                        <div class="inner-footer-div-mobile flex">
+                            <ul id="" class="">
+                                <a href="#"><li>Home</li></a>
+                                <a href="#portfolio"><li>Portfolio</li></a>
+                                <a href="#about-me"><li>About me</li></a>
+                                <a href="#contact-me"><li>Contact</li></a>
+                                <a href="#testimonials"><li>Testimonials</li></a> 
+                            </ul>
+                            <ul class="">
+                                <a href=""><li>Privacy Policy</li></a>
+                                <a href=""><li>Terms of Service</li></a>
+                                <a href=""><li>Cookies Settings</li></a>
+                            </ul>
+                        </div>
+                    </nav>
+                    <div style="display: flex;gap: 1rem;" class="social-links">
+                        <a href="https://facebook.com"><img src="./Images/Facebook (2).png" alt=""></a>
+                        <a href="https://Instagram.com"><img src="./Images/Instagram (2).png" alt=""></a>
+                        <a href="https://Twitter.com"><img src="./Images/Twitter.png" alt=""></a>
+                        <a href="https://Linkedin.com"><img src="./Images/Linkedin.png" alt=""></a>
+                    </div>
+                    <a href="#" class="logo-mobile"><img src="./Images/Logo.png" alt="Logo"></a>
+                </div>
+                <div class="hr"></div>
+                <div class="flex-justify-content container footer-desktop">
+                    <p>Made with 💖 by Airdokan </p>
+                    <ul class="flex" style="display: flex;align-items: center;">
+                        <a href=""><li>Privacy Policy</li></a>
+                        <a href=""><li>Terms of Service</li></a>
+                        <a href=""><li>Cookies Settings</li></a>
+                    </ul>
+                </div>
+                <p class="last-paragraph-mobile">Made with 💖 by Airdokan </p>
+            </footer>
+        </main>
+    <script src="index.js"></script>
+</body>
+</html>
