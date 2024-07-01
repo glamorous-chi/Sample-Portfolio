@@ -321,11 +321,11 @@ h6{
  .contact--me-button:focus{
   background-color: hsl(var(--clr-secondary-200)/.8);;
  }
-#primary-navigation li{
+#primary-navigation ul{
   color: hsl(var(--clr-paragraph))
 }
-#primary-navigation > a:hover,
-#primary-navigation > a:focus{
+#primary-navigation > li:hover,
+#primary-navigation > li:focus{
   color: hsl(var(--clr-secondary-200));
 }
 .description{
@@ -742,11 +742,6 @@ footer{
   .customer-testimonials{
     display: flex;
     gap: 1rem;
-  }
-   
-  
-  #primary-navigation > ul{
-    color: black;
   }
 
 
