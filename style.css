@@ -311,13 +311,13 @@ h6 {
 .contact--me-button:focus {
   background-color: hsl(var(--clr-secondary-200) / 0.8);
 }
-ul {
+#primary-navigation > ul {
   color: black;
 }
-ul > li:hover,
-ul> li:focus {
+/* #primary-navigation > a:hover,
+#primary-navigation > a:focus {
   color: hsl(var(--clr-secondary-200));
-}
+} */
 .description {
   display: grid;
   place-items: center;
