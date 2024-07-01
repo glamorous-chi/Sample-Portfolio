@@ -321,8 +321,8 @@ h6{
  .contact--me-button:focus{
   background-color: hsl(var(--clr-secondary-200)/.8);;
  }
-#primary-navigation ul{
-  color: black
+#primary-navigation > ul{
+  color: black;
 }
 #primary-navigation > li:hover,
 #primary-navigation > li:focus{
@@ -742,6 +742,9 @@ footer{
   .customer-testimonials{
     display: flex;
     gap: 1rem;
+  }
+  #primary-navigation > ul{
+    color: hsl(var(--clr-paragraph));
   }
 
 
