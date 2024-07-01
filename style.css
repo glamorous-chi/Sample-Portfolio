@@ -577,6 +577,9 @@ footer {
     display: flex;
     justify-content: space-between;
   }
+  .testimonials{
+    padding-bottom: 4rem;
+  }
   footer {
     margin-top: 4rem;
   }
