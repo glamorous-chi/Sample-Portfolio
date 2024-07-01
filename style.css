@@ -52,6 +52,7 @@ a {
 ul,
 ol {
   list-style: none;
+  color: black;
 }
 html {
   scroll-behavior: smooth;
@@ -311,13 +312,10 @@ h6 {
 .contact--me-button:focus {
   background-color: hsl(var(--clr-secondary-200) / 0.8);
 }
-#primary-navigation > ul {
-  color: black;
-}
-/* #primary-navigation > a:hover,
+#primary-navigation > a:hover,
 #primary-navigation > a:focus {
   color: hsl(var(--clr-secondary-200));
-} */
+}
 .description {
   display: grid;
   place-items: center;
@@ -733,8 +731,5 @@ footer {
   .customer-testimonials {
     display: flex;
     gap: 1rem;
-  }
-  #primary-navigation > ul {
-    color: hsl(var(--clr-paragraph));
   }
 }
