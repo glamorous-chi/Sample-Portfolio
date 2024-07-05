@@ -337,7 +337,7 @@ h6 {
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  width: 28rem;
+  width: 20rem;
 }
 .card-link {
   display: flex;
@@ -433,6 +433,13 @@ h6 {
 .form-section {
   padding: 1rem;
 }
+.form-field{
+  display: block;
+}
+input[type="text"]{
+  height: 2.8rem;
+}
+
 input[type="checkbox"] {
   appearance: none;
   width: 1rem;
@@ -471,6 +478,10 @@ input[type="checkbox"]:checked::after {
   padding: 2rem;
   display: grid;
   place-content: center;
+}
+.form-field{
+  display: flex;
+  gap: 1.5rem;
 }
 .footer-div {
   display: flex;
@@ -559,7 +570,6 @@ footer {
     display: grid;
     place-content: center;
   }
-
   input {
     width: 20rem;
   }
