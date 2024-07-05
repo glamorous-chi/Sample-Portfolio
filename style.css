@@ -337,7 +337,7 @@ h6 {
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  width: 20rem;
+  max-width: 20rem;
 }
 .card-link {
   display: flex;
@@ -578,7 +578,7 @@ footer {
     min-height: 10rem;
   }
   .card {
-    width: 22rem;
+    max-width: 22rem;
   }
   .portfolio {
     background: none;
@@ -609,7 +609,7 @@ footer {
   .hr::before {
     content: "";
     border: 1px solid rgb(117, 115, 115);
-    width: 70rem;
+    max-width: 70rem;
     display: flex;
     margin: 3rem 0 2rem 0;
   }
