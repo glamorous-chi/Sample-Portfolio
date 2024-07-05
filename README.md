@@ -23,7 +23,7 @@ This is a solution to the [Sample Portfolio Homepage](https://www.figma.com/desi
 
 ### The challenge
 
-The challenge is to develop a replica of the given portfolio in the Figma design given above
+The challenge is to develop a replica of the given portfolio in the Figma design above
 
 ### Screenshot
 
